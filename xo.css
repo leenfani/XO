@@ -10,7 +10,7 @@
     margin: auto;
     
 }
-.status{
+.stat{
     background-color: rgb(199, 92, 199);
     font-size: 80px;
     text-align: center;
@@ -34,4 +34,7 @@ span{
 .square:hover{
     cursor: pointer;
     background-color: rgb(199, 92, 199);
+}
+.active{
+    background-color:  rgb(199, 92, 199);
 }
