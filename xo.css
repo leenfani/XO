@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+}
+.game{
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    margin: auto;
+    
+}
+.status{
+    background-color: rgb(199, 92, 199);
+    font-size: 80px;
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    border: solid 5px;
+}
+span{
+    color: white;
+}
+.square{
+    background-color: rgb(162, 223, 228);
+    width: 120px;
+    height: 120px;
+    margin: 10px 5px;
+    padding: 10px;
+    text-align: center;
+    font-size: 70px;
+    border: solid 5px;
+}
+.square:hover{
+    cursor: pointer;
+    background-color: rgb(199, 92, 199);
+}
