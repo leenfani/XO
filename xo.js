@@ -27,8 +27,6 @@ function winner(){
         let [a, b, c] = combo;
         if (squares[a] !== '' && squares[a] === squares[b] && squares[b] === squares[c]){
             stat.innerHTML = squares[a] + ' Win'
-            // setInterval(function(){stat.innerHTML += '.'},1000)
-            // setTimeout(function(){location.reload},2000)
             restart()
             return;
         }
